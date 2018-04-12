@@ -26,4 +26,10 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    // Relación con la tabla Questions
+    public function question()
+    {
+        return $this->hasMany(Question::class);
+    }
 }
