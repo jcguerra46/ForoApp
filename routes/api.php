@@ -30,7 +30,6 @@ Route::delete('/like/{reply}','LikeController@unLikeIt');
 // 	'name' => 'Juan Carlos Guerra',
 // 	'email' => 'juancarlosguerra46@gmail.com',
 // 	'password' => bcrypt('123456'),
-	
 // ]);
 
 Route::group([
